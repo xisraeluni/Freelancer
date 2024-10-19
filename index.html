@@ -8,9 +8,10 @@
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -23,14 +24,14 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="">Inicio</a>
-            <a href="">Sobre mi</a>
-            <a href="">Clientes</a>
-            <a href="">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre">Sobre mi</a>
+            <a href="#clientes">Clientes</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </div>
 
-    <section class="hero">
+    <section class="hero" id="inicio">
         <div class="contenido-hero">
             <h2>Diseno y desarrollo Web <samp>Freelancer</samp></h2>
 
@@ -48,7 +49,7 @@
         </div> <!--.contenido hero -->
     </section>
 
-    <main class="contenedor sombra">
+    <main class="contenedor sombra" id="sobre">
         <h2>Mis servicios</h2>
 
         <div class="servicios">
@@ -118,7 +119,7 @@
 
 
         <section>
-            <h2>Contacto</h2>
+            <h2 id="contacto">Contacto</h2>
 
             <form class="formulario">
                 <fieldset>
@@ -158,7 +159,8 @@
     </main>
 
     <footer class="footer">
-        <p>Todos los derechos reservados, Israel Freelancer</p>
+        <p>Todos los derechos reservados, Israel Freelancer  <i class="fa fa-coffee"
+                aria-hidden="true"></i></p>
     </footer>
 
 </body>
